@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "0.1.0"
+description = ""
+authors = ["Adam Wilborn <adamw97@vt.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
